@@ -1,6 +1,8 @@
 {
   "routes": [
+    {"src": "/en/(.*)", "dest": "/en/$1"},
     {"src": "/en/(.*)", "dest": "/en/index.html"},
+    {"src": "/de/(.*)", "dest": "/de/$1"},
     {"src": "/de/(.*)", "dest": "/de/index.html"}
   ]
 }
