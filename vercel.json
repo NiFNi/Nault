@@ -1,10 +1,7 @@
 {
   "routes": [
-    {"src": "/en/(.*).js", "dest": "/en/$1.js"},
-    {"src": "/en/(.*).css", "dest": "/en/$1.css"},
+    {"src": "/(.*).(.*)", "dest": "/en/$1.$2"},
     {"src": "/en/(.*)", "dest": "/en/index.html"},
-    {"src": "/de/(.*).js", "dest": "/de/$1.js"},
-    {"src": "/de/(.*).css", "dest": "/de/$1.css"},
     {"src": "/de/(.*)", "dest": "/de/index.html"}
   ]
 }
